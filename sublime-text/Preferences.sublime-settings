@@ -1,0 +1,49 @@
+{
+  // general appearance
+  "theme": "ayu-dark.sublime-theme",                                            // set theme
+  "color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",                 // set colour scheme
+  "ui_scale": 1.0,                                                              // scale entire user interface
+  "ui_separator": true,                                                         // separators between panels/tabs
+  "margin": 4,                                                                  // spacing between the gutter and text
+  "rulers": [[80, "dotted", 1], [120, "solid", 1]],                             // display vertical rulers
+  "scroll_past_end": true,                                                      // allow scrolling past end of buffer
+  "scroll_context_lines": 8,                                                    // set minimum number of context lines
+  "draw_indent_guides": true,                                                   // display indentation guidelines
+
+  // font
+  "font_face": "Hack Nerd Font",                                                // set font
+  /*"font_size": 8,*/                                                              // set font size
+  "line_padding_top": 2,                                                        // add padding to top of lines
+  "line_padding_bottom": 2,                                                     // add padding to bottom of lines
+
+  // general
+  "spell_check": true,                                                          // set spell check
+  "draw_white_space": "all",                                                    // display whitespace characters
+  "trim_automatic_white_space": true,                                           // trim whitespace characters
+  "trim_trailing_white_space_on_save": "all",                                   // trim white space characters on save
+  "trim_only_modified_white_space": false,                                      // trim white space characters only on modified lines
+  "ensure_newline_at_eof_on_save": true,                                        // add blank line at end of files
+
+  // tabs
+  "tab_size": 2,                                                                // set number of spaces for tabs
+  "translate_tabs_to_spaces": true,                                             // set whether spaces are inserted for tabs
+  "use_tab_stops": true,                                                        // use tabstops when inserting/deleting
+  "detect_indentation": false,                                                  // use personal tab settings
+  "auto_indent": true,                                                          // automatic indenting
+  "smart_indent": true,                                                         // smarter automatic indenting
+
+  // highlight
+   "highlight_line": true,                                                      // highlight lines with caret
+  "highlight_gutter": true,                                                     // highlight gutter lines with caret
+  "hightlight_line_number": true,                                               // highlight gutter numbers with caret
+
+  // caret
+  "block_caret": true,                                                          // use block caret (command mode)
+  "caret_style": "solid",                                                       // style caret (insert mode)
+  "caret_extra_top": 0,                                                         // additional height on caret
+  "caret_extra_bottom": 0,                                                      // additional height on caret
+  "caret_extra_width": 2,                                                       // additional width on care
+
+  // ignored
+  "ignored_packages": ["Vintage"],
+}

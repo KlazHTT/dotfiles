@@ -1,0 +1,22 @@
+{
+  // theme
+  "theme": "adaptive",
+
+  // default terminal for operating system
+  "default_config" : {
+    "windows" : "Git Bash",
+  },
+
+  // shell configuration
+  "shell_configs":
+  [
+    {
+      "name": "Git Bash",
+      "cmd": ["C:/Program Files/Git/bin/sh.exe"],
+      "env": {},
+      "enable": true,
+      "default": false,
+      "platforms": ["windows"],
+    },
+  ],
+}
