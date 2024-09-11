@@ -8,6 +8,18 @@ You can peruse freely, but use any files/settings/snippets at your own risk.
 - [Sublime Text](https://www.sublimetext.com/)
 - [Sublime Merge](https://www.sublimemerge.com/)
 
+## FFXIV
+
+- Install game through [XIVLauncher](https://goatcorp.github.io/) to allow addons and enhancements to the game through [Dalamud](https://github.com/goatcorp/Dalamud).
+- Install [INACT](https://www.iinact.com/) for combat tracking and meters (similar to [AC](https://advancedcombattracker.com/)).
+  1. Open Dalamund >>> Settings.
+  2. Under Experimental tab >>> Custom Plugin Repositories.
+  3. Paste the URL for the IINACT plugin repository: `https://raw.githubusercontent.com/marzent/IINACT/main/repo.json`
+  4. Click the `+` button and Save button.
+  5. Open Dalamund >>> Plugins >>> Enable IINACT plugin.
+- Install [LMeter](https://github.com/lichie567/LMeter) to display combat log data.
+  - URL for LMeter plugin repository: `https://raw.githubusercontent.com/lichie567/LMeter/main/repo.json`
+
 ## Sublime Text
 
 - Stored in the `/sublime-text` directory.
