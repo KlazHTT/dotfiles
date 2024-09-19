@@ -34,3 +34,18 @@ You can peruse freely, but use any files/settings/snippets at your own risk.
 - [ColorHelper](https://facelessuser.github.io/ColorHelper/)
 - [MarkdownPreview](https://github.com/facelessuser/MarkdownPreview)
 - [Terminus](https://github.com/randy3k/Terminus)
+
+## Visual Studio Code
+
+- Refer to: https://code.visualstudio.com/docs/setup/linux
+- Settings
+  - View >>> Appearance >>> Activity Bar Position >>> Bottom
+  - View >>> Appearance >>> Custom Title Bar >>> Hide
+  - View >>> Appearance >>> Move Primary Side Bar >>> Right
+- Themes: 
+  - [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) >>> Ayu Dark Bordered
+  - [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night) >>> Tokyo Night
+- Icons:
+  - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+- Extensions:
+  - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
