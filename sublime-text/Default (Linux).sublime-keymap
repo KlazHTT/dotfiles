@@ -10,13 +10,13 @@
     "args": {"target": "browser", "parser":"markdown" }
   },
 
-  { // terminus -- open terminal in current file directory <Ctrl+Alt+T>
-    "keys": ["ctrl+alt+t"],
+  { // terminus -- open terminal in current file directory <Ctrl+[>
+    "keys": ["ctrl+["],
     "command": "toggle_terminus_panel",
     "args": { "cwd": "${file_path:${folder}}" }
   },
-  { // terminus -- close terminal while it is in focus with <Ctrl+W>
-    "keys": ["ctrl+w"],
+  { // terminus -- close terminal while it is in focus with <Ctrl+]>
+    "keys": ["ctrl+]"],
     "command": "terminus_close",
     "context": [{ "key": "terminus_view"}]
   },
